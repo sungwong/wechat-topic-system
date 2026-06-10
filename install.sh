@@ -25,18 +25,18 @@ curl -fsSL "$REPO/.claude/skills/topic-system/SKILL.md" -o .claude/skills/topic-
 # 建定位文件（已有则跳过，不覆盖）
 if [ ! -f "我的定位.md" ]; then
   echo "→ 创建定位文件..."
-  curl -fsSL "$REPO/templates/我的定位.md" -o 我的定位.md
+  curl -fsSL "$REPO/templates/positioning.md" -o 我的定位.md
 else
   echo "→ 定位文件已存在，跳过"
 fi
 
 # 建选题库（已有则跳过）
 if [ ! -f "选题库/原创选题.md" ]; then
-  curl -fsSL "$REPO/templates/选题库/原创选题.md" -o 选题库/原创选题.md
+  curl -fsSL "$REPO/templates/topic-library/original-topics.md" -o 选题库/原创选题.md
 fi
 
 if [ ! -f "选题库/拆解选题.md" ]; then
-  curl -fsSL "$REPO/templates/选题库/拆解选题.md" -o 选题库/拆解选题.md
+  curl -fsSL "$REPO/templates/topic-library/analyzed-topics.md" -o 选题库/拆解选题.md
 fi
 
 echo ""
