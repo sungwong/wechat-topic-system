@@ -14,16 +14,11 @@
 
 ## 安装（1分钟）
 
-在 Claude Code 的终端里运行：
+在 Claude Code 对话框里发这句话：
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/sungwong/wechat-topic-system/main/install.sh | bash
-```
+> 帮我运行这个命令：`curl -fsSL https://raw.githubusercontent.com/sungwong/wechat-topic-system/main/install.sh | bash`
 
-运行完会自动创建所有文件，跟着提示填写你的定位就行。
-
-> 没有终端？在 Claude Code 对话框里说：
-> `帮我运行这个命令：curl -fsSL https://raw.githubusercontent.com/sungwong/wechat-topic-system/main/install.sh | bash`
+Claude Code 会自动执行，文件建好后跟着提示填写你的定位就行。
 
 ---
 
