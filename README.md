@@ -17,13 +17,13 @@
 在 Claude Code 的终端里运行：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/topic-system/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/sungwong/wechat-topic-system/main/install.sh | bash
 ```
 
 运行完会自动创建所有文件，跟着提示填写你的定位就行。
 
 > 没有终端？在 Claude Code 对话框里说：
-> `帮我运行这个命令：curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/topic-system/main/install.sh | bash`
+> `帮我运行这个命令：curl -fsSL https://raw.githubusercontent.com/sungwong/wechat-topic-system/main/install.sh | bash`
 
 ---
 
@@ -60,7 +60,7 @@ curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/topic-system/main/ins
 ## 更新
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/topic-system/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/sungwong/wechat-topic-system/main/install.sh | bash
 ```
 
 重新运行安装命令即可更新 skill 文件，**已有的定位和选题库不会被覆盖**。
